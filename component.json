@@ -1,0 +1,10 @@
+{
+  "name": "element-create",
+  "repo": "enricomarino/element-create",
+  "description": "create plugin for element",
+  "version": "0.0.1",
+  "dependencies": {
+    "component/domify": "*"
+  },
+  "scripts": ["index.js"]
+}
