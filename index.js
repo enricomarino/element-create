@@ -17,7 +17,7 @@ module.exports = create;
 function create (element) {
 
   element.create = function (html) {
-    var el = domify(html);
+    var el = domify(html)[0];
     return element(el);
   };
 
